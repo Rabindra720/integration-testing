@@ -1,0 +1,10 @@
+{
+  "name": "hex-rgb-rest-api",
+  "version": "1.0.0",
+  "description": "A small Express REST API for converting hexadecimal colours to RGB.",
+  "main": "src/server.js",
+  "scripts": {"start":"node src/server.js", "test:unit":"mocha tests/hexToRgb.test.js", "test:integration":"mocha tests/api.integration.test.js", "test":"mocha tests/**/*.test.js"},
+  "dependencies": {"express":"^4.21.2"},
+  "devDependencies": {"chai":"^4.5.0", "mocha":"^10.8.2", "supertest":"^7.0.0"},
+  "engines":{"node":">=18"}
+}
